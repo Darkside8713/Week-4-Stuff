@@ -71,7 +71,9 @@
 
     const pointGraphic = new Graphic({
         geometry: point,
-        symbol: simpleMarkerSymbol
+        symbol: simpleMarkerSymbol,
+        attributes: attributes,
+        popupTemplate: popupTemplate
     });
     
     graphicsLayer.add(pointGraphic);
